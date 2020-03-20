@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDB91BC2242544EC00026F0B /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BC1242544EC00026F0B /* ProductsTableViewController.swift */; };
+		CDB91BC42425457600026F0B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BC32425457600026F0B /* SettingsTableViewController.swift */; };
+		CDB91BC6242545E000026F0B /* BoughtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BC5242545E000026F0B /* BoughtTableViewController.swift */; };
+		CDB91BC82425466000026F0B /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BC72425466000026F0B /* ProductViewController.swift */; };
+		CDB91BCC242547C600026F0B /* ProductAddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BCB242547C600026F0B /* ProductAddEditViewController.swift */; };
+		CDB91BCE24254F8D00026F0B /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BCD24254F8D00026F0B /* ProductTableViewCell.swift */; };
+		CDB91BD2242560D500026F0B /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BD1242560D500026F0B /* ViewController+CoreData.swift */; };
 		CDBA3B8124219FD500A75CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA3B8024219FD500A75CB6 /* AppDelegate.swift */; };
 		CDBA3B8324219FD500A75CB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA3B8224219FD500A75CB6 /* ViewController.swift */; };
 		CDBA3B8624219FD500A75CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBA3B8424219FD500A75CB6 /* Main.storyboard */; };
@@ -16,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CDB91BC1242544EC00026F0B /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
+		CDB91BC32425457600026F0B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		CDB91BC5242545E000026F0B /* BoughtTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoughtTableViewController.swift; sourceTree = "<group>"; };
+		CDB91BC72425466000026F0B /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		CDB91BCB242547C600026F0B /* ProductAddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductAddEditViewController.swift; sourceTree = "<group>"; };
+		CDB91BCD24254F8D00026F0B /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		CDB91BD1242560D500026F0B /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
 		CDBA3B7D24219FD500A75CB6 /* AndreaArthur.ComprasUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndreaArthur.ComprasUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBA3B8024219FD500A75CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDBA3B8224219FD500A75CB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,8 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				CDBA3B8024219FD500A75CB6 /* AppDelegate.swift */,
+				CDB91BD1242560D500026F0B /* ViewController+CoreData.swift */,
 				CDBA3B8224219FD500A75CB6 /* ViewController.swift */,
 				CDBA3B8424219FD500A75CB6 /* Main.storyboard */,
+				CDB91BCD24254F8D00026F0B /* ProductTableViewCell.swift */,
+				CDB91BCB242547C600026F0B /* ProductAddEditViewController.swift */,
+				CDB91BC72425466000026F0B /* ProductViewController.swift */,
+				CDB91BC5242545E000026F0B /* BoughtTableViewController.swift */,
+				CDB91BC32425457600026F0B /* SettingsTableViewController.swift */,
+				CDB91BC1242544EC00026F0B /* ProductsTableViewController.swift */,
 				CDBA3B8A24219FD500A75CB6 /* Assets.xcassets */,
 				CDBA3B8C24219FD500A75CB6 /* LaunchScreen.storyboard */,
 				CDBA3B8F24219FD500A75CB6 /* Info.plist */,
@@ -140,8 +161,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBA3B8324219FD500A75CB6 /* ViewController.swift in Sources */,
+				CDB91BC42425457600026F0B /* SettingsTableViewController.swift in Sources */,
+				CDB91BCE24254F8D00026F0B /* ProductTableViewCell.swift in Sources */,
+				CDB91BC2242544EC00026F0B /* ProductsTableViewController.swift in Sources */,
+				CDB91BC82425466000026F0B /* ProductViewController.swift in Sources */,
+				CDB91BCC242547C600026F0B /* ProductAddEditViewController.swift in Sources */,
 				CDBA3B8924219FD500A75CB6 /* AndreaArthur_ComprasUSA.xcdatamodeld in Sources */,
+				CDB91BC6242545E000026F0B /* BoughtTableViewController.swift in Sources */,
 				CDBA3B8124219FD500A75CB6 /* AppDelegate.swift in Sources */,
+				CDB91BD2242560D500026F0B /* ViewController+CoreData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
