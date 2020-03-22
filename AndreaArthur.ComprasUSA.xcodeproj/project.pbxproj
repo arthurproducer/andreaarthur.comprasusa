@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD30ABF72426C9600029D1A6 /* StatesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD30ABF62426C9600029D1A6 /* StatesManager.swift */; };
 		CDB91BC2242544EC00026F0B /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BC1242544EC00026F0B /* ProductsTableViewController.swift */; };
 		CDB91BC42425457600026F0B /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BC32425457600026F0B /* SettingsTableViewController.swift */; };
 		CDB91BC6242545E000026F0B /* BoughtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB91BC5242545E000026F0B /* BoughtTableViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD30ABF62426C9600029D1A6 /* StatesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesManager.swift; sourceTree = "<group>"; };
 		CDB91BC1242544EC00026F0B /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 		CDB91BC32425457600026F0B /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		CDB91BC5242545E000026F0B /* BoughtTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoughtTableViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				CDBA3B8224219FD500A75CB6 /* ViewController.swift */,
 				CDBA3B8424219FD500A75CB6 /* Main.storyboard */,
 				CDB91BCD24254F8D00026F0B /* ProductTableViewCell.swift */,
+				CD30ABF62426C9600029D1A6 /* StatesManager.swift */,
 				CDB91BCB242547C600026F0B /* ProductAddEditViewController.swift */,
 				CDB91BC72425466000026F0B /* ProductViewController.swift */,
 				CDB91BC5242545E000026F0B /* BoughtTableViewController.swift */,
@@ -164,6 +167,7 @@
 				CDB91BC42425457600026F0B /* SettingsTableViewController.swift in Sources */,
 				CDB91BCE24254F8D00026F0B /* ProductTableViewCell.swift in Sources */,
 				CDB91BC2242544EC00026F0B /* ProductsTableViewController.swift in Sources */,
+				CD30ABF72426C9600029D1A6 /* StatesManager.swift in Sources */,
 				CDB91BC82425466000026F0B /* ProductViewController.swift in Sources */,
 				CDB91BCC242547C600026F0B /* ProductAddEditViewController.swift in Sources */,
 				CDBA3B8924219FD500A75CB6 /* AndreaArthur_ComprasUSA.xcdatamodeld in Sources */,

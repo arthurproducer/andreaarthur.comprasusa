@@ -31,8 +31,8 @@ class ProductTableViewCell: UITableViewCell {
     func prepare(with product: Product){
         lbName.text = product.name ?? ""
         lbState.text = product.state?.name ?? ""
-        lbUSPrice.text = String(format:"%.2f", product.usPrice)
-        lbBRLPrice.text = String(format:"%.2f", product.brlPrice)
+        lbUSPrice.text = "US$ " + String(format:"%.2f", product.usPrice)
+        lbBRLPrice.text = "R$ " + String(format:"%.2f", product.brlPrice)
         
         if let image = product.imageProduct as? UIImage {
             ivProduct.image =  image
