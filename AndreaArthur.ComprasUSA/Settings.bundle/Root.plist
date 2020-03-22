@@ -18,7 +18,7 @@
 			<key>Title</key>
 			<string>Cotacao do dólar</string>
 			<key>Key</key>
-			<string>usd_value</string>
+			<string>usdValue</string>
 			<key>DefaultValue</key>
 			<string>5.20</string>
 			<key>IsSecure</key>
@@ -36,7 +36,7 @@
 			<key>Title</key>
 			<string>I.O.F (%)</string>
 			<key>Key</key>
-			<string>iof_value</string>
+			<string>iofValue</string>
 			<key>DefaultValue</key>
 			<string>6.38</string>
 			<key>IsSecure</key>

@@ -21,6 +21,7 @@
 		CDBA3B8B24219FD500A75CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBA3B8A24219FD500A75CB6 /* Assets.xcassets */; };
 		CDBA3B8E24219FD500A75CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBA3B8C24219FD500A75CB6 /* LaunchScreen.storyboard */; };
 		CDFC1C762427D565004B41E6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CDFC1C752427D565004B41E6 /* Settings.bundle */; };
+		CDFC1C782427DB17004B41E6 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC1C772427DB17004B41E6 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		CDBA3B8D24219FD500A75CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDBA3B8F24219FD500A75CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDFC1C752427D565004B41E6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		CDFC1C772427DB17004B41E6 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,21 +76,46 @@
 			children = (
 				CDFC1C752427D565004B41E6 /* Settings.bundle */,
 				CDBA3B8024219FD500A75CB6 /* AppDelegate.swift */,
-				CDB91BD1242560D500026F0B /* ViewController+CoreData.swift */,
-				CDBA3B8424219FD500A75CB6 /* Main.storyboard */,
-				CD4FAEFB2427B35600DAE381 /* SettingsViewController.swift */,
-				CDB91BCD24254F8D00026F0B /* ProductTableViewCell.swift */,
+				CDFC1C7A2427DD5C004B41E6 /* Views */,
+				CDFC1C792427DD39004B41E6 /* Models */,
+				CDFC1C7B2427DDD3004B41E6 /* Controllers */,
+				CDBA3B8A24219FD500A75CB6 /* Assets.xcassets */,
+				CDBA3B8F24219FD500A75CB6 /* Info.plist */,
+			);
+			path = AndreaArthur.ComprasUSA;
+			sourceTree = "<group>";
+		};
+		CDFC1C792427DD39004B41E6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDFC1C772427DB17004B41E6 /* Configuration.swift */,
 				CD30ABF62426C9600029D1A6 /* StatesManager.swift */,
+				CDBA3B8724219FD500A75CB6 /* AndreaArthur_ComprasUSA.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDFC1C7A2427DD5C004B41E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDBA3B8424219FD500A75CB6 /* Main.storyboard */,
+				CDBA3B8C24219FD500A75CB6 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDFC1C7B2427DDD3004B41E6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDB91BCD24254F8D00026F0B /* ProductTableViewCell.swift */,
 				CDB91BCB242547C600026F0B /* ProductAddEditViewController.swift */,
 				CDB91BC72425466000026F0B /* ProductViewController.swift */,
 				CDB91BC1242544EC00026F0B /* ProductsTableViewController.swift */,
-				CDBA3B8A24219FD500A75CB6 /* Assets.xcassets */,
-				CDBA3B8C24219FD500A75CB6 /* LaunchScreen.storyboard */,
-				CDBA3B8F24219FD500A75CB6 /* Info.plist */,
-				CDBA3B8724219FD500A75CB6 /* AndreaArthur_ComprasUSA.xcdatamodeld */,
+				CD4FAEFB2427B35600DAE381 /* SettingsViewController.swift */,
 				CD4FAEF92427B05D00DAE381 /* ShoppingViewController.swift */,
+				CDB91BD1242560D500026F0B /* ViewController+CoreData.swift */,
 			);
-			path = AndreaArthur.ComprasUSA;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +201,7 @@
 				CDBA3B8924219FD500A75CB6 /* AndreaArthur_ComprasUSA.xcdatamodeld in Sources */,
 				CDBA3B8124219FD500A75CB6 /* AppDelegate.swift in Sources */,
 				CDB91BD2242560D500026F0B /* ViewController+CoreData.swift in Sources */,
+				CDFC1C782427DB17004B41E6 /* Configuration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
